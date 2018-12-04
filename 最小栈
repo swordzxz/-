@@ -22,7 +22,7 @@ class MinStack:
         if self.stack is None:
             return error
         else:
-            self.stack.pop(-1)
+            return self.stack.pop(-1)
 
     def top(self):
         """
